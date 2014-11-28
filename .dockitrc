@@ -1,0 +1,2 @@
+default_args: -v /var/run/docker.sock:/var/run/docker.sock --link=etcd:etcd
+dev_mount: /var/dev
